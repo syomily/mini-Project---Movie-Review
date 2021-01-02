@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  color: #FFFFFF;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  border: #000000;
+}
+
+ul.header {
+  background-color: #222222;
+  padding: 0;
+  border: #000000;
+}
+ul.header li a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+li .active{
+  background-color: rgb(78, 72, 72);
+}
+
+.bgCircle {
+  border-radius: 100%;
+  width: 230px;
+  height: 230px;
+  background-color: #a7b1b1;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+  float: left;
+  font-size: 13px;
+ 
+}
+ 
+.circle {
+  border-radius: 100%;
+}
+
+.jumbotron {
+  background-image: url(https://humphsthoughts.files.wordpress.com/2017/03/logan-banner.jpg?w=650);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.ctr {
+  text-align: center;
+}
+
+.jumbotron-text {
+  color: #000000;
+} 
+.photo {
+  height: 100px;
+}
+
+.download {
+  height: 9vh;
+}
+
+.page {
+  margin: 10px .5vw;
+}
+
+.bg-header-footer {
+  background: #0A0A0A;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.fa-user-circle {
+  color: #FFFFFF;
+}
+
+.kotak {
+  position: relative;
+}
+
+.submit {
+  text-align: right;
+}
+/* .kotakecil {
+  width: 250px !important;
+  height: auto !important;
+
+  
+} */
